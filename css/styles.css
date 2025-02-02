@@ -1555,6 +1555,16 @@ textarea {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .w-100-stack, .block-900-stack>.column {
+        -ms-flex: 0 0 20%;
+        -webkit-box-flex: 0;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+
 
 
 /* ===================================================================
